@@ -1,0 +1,16 @@
+.form-layout {
+    display: flex;
+}
+
+.background-container {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    width: 40vw;
+    flex: auto;
+}
+
+.content-container {
+
+}
