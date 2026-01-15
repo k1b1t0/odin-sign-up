@@ -15,39 +15,50 @@
             <section>
                 <h1> 
                     This is not a real online service! 
-                    You know you need something like this in your life to help you realize your deepest dreams. 
+                    You know you need something like this in your life to help you realize your deepest dreams.<br> 
                     Sign up <i>now</i> to get started.
                 </h1>
                 <h1>You <i>know</i> you want to.</h1>
             </section>
             <form>
-                <section>
+                <section class="input-section">
                     <h1>Let's do this!</h1>
-                    <p>
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
-
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
-                    </p>
-                    <p>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
-
-                        <label for="phone">PHONE NUMBER</label>
-                        <input type="number" id="phone" name="phone">
-                    </p>
-                    <p>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
-
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
-                    </p>
+                    <div class="input-container">
+                        <div class="input-line"">
+                            <div class="label-input">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <div class="label-input">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+                        </div>
+                        <div class="input-line"">
+                            <div class="label-input">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="label-input">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="number" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="input-line"">
+                            <div class="label-input">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password">
+                            </div>
+                            <div class="label-input">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm_password" name="confirm_password">
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section>
                     <button type="submit">Create Account</button>
-                    <p>Already have an account? <strong>Log in</strong></p>
+                    <p>Already have an account? <strong><a href="/">Log in</a></strong></p>
                 </section>
             </form>
         </div>
