@@ -90,3 +90,13 @@ a {
     font-size: 5rem;
     font-family: monospace;
 }
+
+input:focus {
+    outline: 2px solid blue;
+    box-shadow: 1px 4px 3px -3px black;
+    border: none;
+}
+
+input[type="password"]:invalid:not(:focus) {
+    outline: 2px solid red;
+}
